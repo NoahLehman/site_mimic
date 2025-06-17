@@ -52,7 +52,6 @@ export function formatUSD(amount) {
   }).format(amount);
 }
 
-// Example usage (for testing in console)
 console.log('Email valid:', validateEmail('test@example.com'));
 console.log('Cart total:', formatUSD(calculateTotal([19.99, 29.99], 0.06)));
 console.log('Random testimonial:', getRandomTestimonial());
