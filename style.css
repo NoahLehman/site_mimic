@@ -1,0 +1,14 @@
+/* Custom styles */
+.hero {
+  background: radial-gradient(circle at top left, #5469d4 0%, #1b1b3a 100%);
+  min-height: 90vh;
+  padding-top: 80px; /* navbar offset */
+}
+
+.hero h1, .hero p {
+  color: #ffffff;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
